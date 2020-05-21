@@ -3,6 +3,7 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { PokemonContainer } from './containers/PokemonContainer';
 
+import './App.css';
 
 function App() {
   // Pass your GraphQL endpoint to uri
